@@ -1,0 +1,56 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up VOICEVOX TTS",
+        "description": "Please enter the host and port of the server running the VOICEVOX Engine.",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        }
+      },
+      "speaker_selection": {
+        "title": "Select a voice",
+        "description": "Choose the voice for VOICEVOX TTS.",
+        "data": {
+          "speaker": "Voice"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure VOICEVOX TTS",
+        "description": "Update the host and port settings.",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "timeout": "Connection timed out. Please make sure your configuration is correct.",
+      "error": "Unable to connect. Please make sure that the host and port are correct.",
+      "unknown": "An unexpected error occurred. Please check the log for details.",
+      "speaker_fetch_failed": "Failed to fetch voice information. Please check your connection."
+    },
+    "abort": {
+      "already_configured": "This integration is already configured.",
+      "reconfigure_successful": "Reconfiguration successful."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update VOICEVOX TTS Options",
+        "description": "Choose the voice for VOICEVOX TTS.",
+        "data": {
+          "speaker": "Voice"
+        }
+      }
+    },
+    "error": {
+      "speaker_fetch_failed": "Failed to fetch voice information. Please check your connection."
+    },
+    "abort": {
+      "options_updated": "Options updated successfully."
+    }
+  }
+}

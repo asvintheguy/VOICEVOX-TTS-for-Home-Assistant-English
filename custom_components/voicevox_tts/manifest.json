@@ -1,0 +1,17 @@
+{
+  "domain": "voicevox_tts",
+  "name": "VOICEVOX TTS",
+  "version": "1.0.0",
+  "requirements": [],
+  "codeowners": [
+    "@taikun114"
+  ],
+  "config_flow": true,
+  "loggers": [
+    "voicevox_tts"
+  ],
+  "dependencies": [],
+  "documentation": "https://github.com/taikun114/VOICEVOX-TTS-for-Home-Assistant",
+  "issue_tracker": "https://github.com/taikun114/VOICEVOX-TTS-for-Home-Assistant/issues",
+  "iot_class": "local_push"
+}

@@ -1,0 +1,56 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "VOICEVOX TTSの設定",
+        "description": "VOICEVOX エンジンを実行しているサーバーのホストとポートを入力してください。",
+        "data": {
+          "host": "ホスト",
+          "port": "ポート"
+        }
+      },
+      "speaker_selection": {
+        "title": "声の選択",
+        "description": "VOICEVOX TTSに使用する声を選択してください。",
+        "data": {
+          "speaker": "声"
+        }
+      },
+      "reconfigure": {
+        "title": "VOICEVOX TTSの再設定",
+        "description": "ホストとポートの設定を更新します。",
+        "data": {
+          "host": "ホスト",
+          "port": "ポート"
+        }
+      }
+    },
+    "error": {
+      "timeout": "接続がタイムアウトしました。設定が正しいことをご確認ください。",
+      "error": "接続できませんでした。ホストとポートが正しいことをご確認ください。",
+      "unknown": "予期せぬエラーが発生しました。詳細はログをご確認ください。",
+      "speaker_fetch_failed": "声情報の取得に失敗しました。接続をご確認ください。."
+    },
+    "abort": {
+      "already_configured": "この統合はすでに設定されています。",
+      "reconfigure_successful": "再設定に成功しました。"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "VOICEVOX TTSオプションの更新",
+        "description": "VOICEVOX TTSに使用する声を選択してください。",
+        "data": {
+          "speaker": "声"
+        }
+      }
+    },
+    "error": {
+      "speaker_fetch_failed": "声情報の取得に失敗しました。接続をご確認ください。"
+    },
+    "abort": {
+      "options_updated": "オプションの更新に成功しました。"
+    }
+  }
+}
