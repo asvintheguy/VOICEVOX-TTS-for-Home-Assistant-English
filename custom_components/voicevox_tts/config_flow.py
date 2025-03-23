@@ -129,10 +129,6 @@ class VOICEVOXTTSConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             errors=errors,
         )
 
-    @callback
-    def _get_reconfigure_entry(self):
-        return self._async_current_entries()[0]
-
     @staticmethod
     @callback
     def async_get_options_flow(config_entry):
