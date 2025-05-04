@@ -6,9 +6,14 @@ This custom integration provides Japanese TTS services using [VOICEVOX](https://
 >[!NOTE]
 >To use VOICEVOX TTS, you need a server running [VOICEVOX Engine](https://github.com/VOICEVOX/voicevox_engine).
 >
->[VOICEVOX Engine Addon](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine) is also available and can be used (this is under development and may be unstable or some functions may not work properly).
+>[VOICEVOX Engine Addon](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine) is also available and can be used.
 
 When using VOICEVOX TTS, please be sure to read [VOICEVOX's Terms of Use](https://voicevox.hiroshiba.jp/term/) and each character's Terms of Use.
+
+>[!NOTE]
+>I have confirmed that the Japanese TTS engine [AivisSpeech Engine](https://github.com/Aivis-Project/AivisSpeech-Engine), which is compatible with the VOICEVOX API, can also be used without any problems.
+>
+>If you want to use it with AivisSpeech Engine, please enter the host and port of the server running the AivisSpeech Engine when setting up the VOICEVOX TTS integration.
 
 ## Install
 ### Via HACS

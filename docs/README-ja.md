@@ -6,9 +6,14 @@
 >[!NOTE]
 >VOICEVOX TTSを使用するには、[VOICEVOX エンジン](https://github.com/VOICEVOX/voicevox_engine)を実行したサーバーが必要です。
 >
->[VOICEVOX エンジンのアドオン](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine)もありますので、こちらを使うこともできます（開発中のため、動作が不安定だったり、一部機能が正常に動作しなかったりする可能性があります）。
+>[VOICEVOX エンジンのアドオン](https://github.com/taikun114/Home-Assistant-VOICEVOX-Engine)もありますので、こちらを使うこともできます。
 
 VOICEVOX TTSを利用する際は、[VOICEVOXの利用規約](https://voicevox.hiroshiba.jp/term/)および各キャラクターの利用規約を必ずご覧ください。
+
+>[!NOTE]
+>VOICEVOX APIと互換性のある日本語TTSエンジンの[AivisSpeech Engine](https://github.com/Aivis-Project/AivisSpeech-Engine)でも問題なく使用できることを確認しました。
+>
+>AivisSpeech Engineで使用する場合は、VOICEVOX TTS統合のセットアップ時に、AivisSpeech Engineを実行しているサーバーのホストとポートを入力してください。
 
 ## インストール
 ### HACS経由
