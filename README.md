@@ -17,11 +17,16 @@ When using VOICEVOX TTS, please be sure to read [VOICEVOX's Terms of Use](https:
 
 ## Install
 ### Via HACS
-If you are using HACS (Home Assistant Community Store), you will need to click the button below or manually add a repository and install it.
+If you are using HACS (Home Assistant Community Store), click the button below or search for `VOICEVOX TTS` in HACS and install.
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=taikun114&repository=VOICEVOX-TTS-for-Home-Assistant&category=integration)
 
-If you want to do it manually, open HACS from the sidebar and click `...` in the upper right corner, then open `Custom repositories`.
+#### To add repository and install
+
+>[!TIP]
+>Currently this custom integration is in the default repository, so you can install it without adding a repository.
+
+Click the button above or open HACS from the sidebar, and click `...` in the upper right corner, then open `Custom repositories`.
 
 Once the custom repository page opens, add a repository by entering the following
 

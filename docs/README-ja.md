@@ -17,11 +17,16 @@ VOICEVOX TTSを利用する際は、[VOICEVOXの利用規約](https://voicevox.h
 
 ## インストール
 ### HACS経由
-HACS（Home Assistant Community Store）をご利用の場合、以下のボタンをクリックするか、手動でリポジトリを追加してインストールする必要があります。
+HACS（Home Assistant Community Store）をご利用の場合、以下のボタンをクリックするか、HACSで`VOICEVOX TTS`と検索してインストールしてください。
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=taikun114&repository=VOICEVOX-TTS-for-Home-Assistant&category=integration)
 
-手動で行う場合、サイドバーからHACSを開き、右上の`...`をクリックしたら`Custom repositories`を開きます。
+#### リポジトリを追加してインストールする場合
+
+>[!TIP]
+>現在このカスタム統合はデフォルトリポジトリに入っているため、リポジトリを追加しなくてもインストールすることができます。
+
+上記ボタンをクリックするか、サイドバーからHACSを開き、右上の`...`をクリックしたら`Custom repositories`を開きます。
 
 カスタムリポジトリの画面が開いたら、以下のように入力してリポジトリを追加します。
 
