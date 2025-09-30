@@ -40,7 +40,7 @@ class VOICEVOXTTSEntity(TextToSpeechEntity):
 
     @property
     def default_language(self):
-        return "ja-JP"
+        return "en-US"
 
     @property
     def supported_languages(self):
