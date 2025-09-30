@@ -1,6 +1,8 @@
 # VOICEVOX TTS Integration for Home Assistant (ENGLISH ALLOWED)
 **English** | [日本語](docs/README-ja.md)
 
+This is a simple fork that allows you to send english to VOICEVOX (its able to actually speak english, just does it funny. I like VOIDOLL, they speak like Miku.
+
 This custom integration provides Japanese TTS services using [VOICEVOX](https://voicevox.hiroshiba.jp/) in Home Assistant.
 
 >[!NOTE]
