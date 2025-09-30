@@ -1,4 +1,4 @@
-# VOICEVOX TTS Integration for Home Assistant
+# VOICEVOX TTS Integration for Home Assistant (ENGLISH ALLOWED)
 **English** | [日本語](docs/README-ja.md)
 
 This custom integration provides Japanese TTS services using [VOICEVOX](https://voicevox.hiroshiba.jp/) in Home Assistant.
